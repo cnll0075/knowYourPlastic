@@ -1,23 +1,17 @@
 title: Plastic Images Classifier
 description: Classify plastic images using deep learning
 about:
-
-
   This is a Plastic Images Classifier using Deep Learning built on top of Pytorch.
 
+code: 
 
-  The project was build by [Arul Bharathi],[Angela Tao],[Claire Lu],[Nandita Dwivedi],[David Kong].
+sampleImages:
+  - name: plastic water bottle
+    url: https://5.imimg.com/data5/SD/JK/MY-10914613/plastic-water-bottle-500x500.jpg
+  - name: shampoo bottles
+    url: https://www.calgary.ca/UEP/WRS/PublishingImages/What-goes-where/items/Shampoo-bottle-160px.jpg
+  - name: tupperwares
+    url: https://images-na.ssl-images-amazon.com/images/I/61cp079PULL._SL1500_.jpg
+  
 
-
-  More info and the source code can he found below.
-
-  [Web app](https://plastic-img-classifier.herokuapp.com)
-
-
-  To try out this mobile app
-
-    - [Expo]()
-
-
-code: https://github.com/cnll0075/knowYourPlastic
 
