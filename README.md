@@ -10,7 +10,7 @@ Plastic makes up about 20% of landfill garbage, and less than 10% of them are re
 
 
 ## Tech and Design Stack 
-<img src="./images/kyc_stack.png" width="900"/>
+<img src="imgs/kyc_stack.jpg" width="500"/>
 
 ## PlasticNet - Image Dataset
 
