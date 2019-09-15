@@ -3,7 +3,7 @@ description: Classify plastic images using deep learning
 about:
   This is a Plastic Images Classifier using Deep Learning built on top of Pytorch.
 
-code: 
+code: https://github.com/cnll0075/knowYourPlastic/
 
 sampleImages:
   - name: plastic water bottle
