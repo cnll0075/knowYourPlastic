@@ -42,12 +42,22 @@ def predict(img, n: int = 1) -> Dict[str, Union[str, List]]:
     pred_probs = pred_probs.tolist()
     predictions = []
     info_df = pd.read_csv("models/plastic.csv")
+    facts = pd.read_csv("models/Plastic_facts.csv")
     for image_class, output, prob in zip(model.data.classes, outputs.tolist(), pred_probs):
         output = round(output, 1)
         prob = round(prob, 2)
         plastic_class = info_df[info_df['Name']==image_class]['Abbreviation'].values[0]
+        recycability = facts[facts['Abbreviation']==plastic_class]['Recycability'].values[0]
+        description = facts[facts['Abbreviation']==plastic_class]['Description'].values[0]
+        globalProduction = facts[facts['Abbreviation']==plastic_class]['GlobalProduction'].values[0]
+        hazard = facts[facts['Abbreviation']==plastic_class]['EnvironmentHazard'].values[0]
+        carbon_footprint = facts[facts['Abbreviation']==plastic_class]['CarbonFootprint'].values[0]
+        time_to_degrade = facts[facts['Abbreviation']==plastic_class]['Timetodegrade'].values[0]
         predictions.append(
-            {"class": image_class.replace("_", " ").replace("pet","").capitalize(), "output": output, "p_type": plastic_class}
+            {"class": image_class.replace("_", " ").replace("pet","").capitalize(), \
+                "output": output, "p_type": plastic_class,"recycability":recycability,\
+                    "description":description,"globalProduction":globalProduction,"hazard":hazard,\
+                        "carbon_footprint":carbon_footprint,"time_to_degrade":time_to_degrade}
         )
 
     predictions = sorted(predictions, key=lambda x: x["output"], reverse=True)
