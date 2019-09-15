@@ -34,9 +34,9 @@ PS,Polystyrene or Styrofoam,disposable_coffee_cup,123
 PS,Polystyrene or Styrofoam,plastic_food_box,102
 PS,Polystyrene or Styrofoam,plastic_cutlery,178
 PS,Polystyrene or Styrofoam,packing_foam,88
-NA,Miscellaneous Plastics,plastic_cd,76
-NA,Miscellaneous Plastics,baby_bottles,83
-NA,Miscellaneous Plastics,large_water_bottles,92
-NA,Miscellaneous Plastics,medical_storage_containers,85
-NA,Miscellaneous Plastics,eyeglasses,91
-NA,Miscellaneous Plastics,exterior_lighting_fixtures,95
+Others,Miscellaneous Plastics,plastic_cd,76
+Others,Miscellaneous Plastics,baby_bottles,83
+Others,Miscellaneous Plastics,large_water_bottles,92
+Others,Miscellaneous Plastics,medical_storage_containers,85
+Others,Miscellaneous Plastics,eyeglasses,91
+Others,Miscellaneous Plastics,exterior_lighting_fixtures,95
