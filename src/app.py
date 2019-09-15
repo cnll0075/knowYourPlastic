@@ -52,12 +52,13 @@ def predict(img, n: int = 1) -> Dict[str, Union[str, List]]:
         globalProduction = facts[facts['Abbreviation']==plastic_class]['GlobalProduction'].values[0]
         hazard = facts[facts['Abbreviation']==plastic_class]['EnvironmentHazard'].values[0]
         carbon_footprint = facts[facts['Abbreviation']==plastic_class]['CarbonFootprint'].values[0]
+        full_name = facts[facts['Abbreviation']==plastic_class]['ChemicalName'].values[0]
         time_to_degrade = facts[facts['Abbreviation']==plastic_class]['Timetodegrade'].values[0]
         predictions.append(
             {"class": image_class.replace("_", " ").replace("pet","").capitalize(), \
                 "output": output, "p_type": plastic_class,"recycability":recycability,\
                     "description":description,"globalProduction":globalProduction,"hazard":hazard,\
-                        "carbon_footprint":carbon_footprint,"time_to_degrade":time_to_degrade}
+                        "carbon_footprint":carbon_footprint,"time_to_degrade":time_to_degrade,"full_name":full_name}
         )
 
     predictions = sorted(predictions, key=lambda x: x["output"], reverse=True)
