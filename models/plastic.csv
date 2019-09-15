@@ -1,0 +1,42 @@
+Abbreviation,Polymer Name,Name,count
+PETE,Polyethylene Terephthalate,pet_bottle,328
+PETE,Polyethylene Terephthalate,medicine_jars,277
+PETE,Polyethylene Terephthalate,jelly_jars,226
+PETE,Polyethylene Terephthalate,combs,195
+PETE,Polyethylene Terephthalate,bean_bags,263
+PETE,Polyethylene Terephthalate,rope,206
+PETE,Polyethylene Terephthalate,tote_bags,135
+HDPE,High-Density Polyethylene,milk_jugs,128
+HDPE,High-Density Polyethylene,juice_containers,183
+HDPE,High-Density Polyethylene,grocery_bags,146
+HDPE,High-Density Polyethylene,trash_bags,178
+HDPE,High-Density Polyethylene,motor_oil_containers,173
+HDPE,High-Density Polyethylene,detergent_shampoo_soap_bottle,207
+HDPE,High-Density Polyethylene,toys,100
+PVC,Polyvinyl Chloride,tile,130
+PVC,Polyvinyl Chloride,cling_films,183
+PVC,Polyvinyl Chloride,shoes,238
+PVC,Polyvinyl Chloride,pipes_ducts,350
+PVC,Polyvinyl Chloride,window_frame,183
+LDPE,Low-Density Polyethylene,sandwidch_bags,160
+LDPE,Low-Density Polyethylene,squeeze_bottles,214
+LDPE,Low-Density Polyethylene,flexible_lids,97
+PP,Polypropylene,plastic_diapers,101
+PP,Polypropylene,tupperware,177
+PP,Polypropylene,margarine_tubs,120
+PP,Polypropylene,yogurt_container,78
+PP,Polypropylene,prescription_bottle,143
+PP,Polypropylene,stadium_cups,236
+PP,Polypropylene,bottle_caps,93
+PP,Polypropylene,take_out_containers,91
+PP,Polypropylene,disposable_cup_plate,165
+PS,Polystyrene or Styrofoam,disposable_coffee_cup,123
+PS,Polystyrene or Styrofoam,plastic_food_box,102
+PS,Polystyrene or Styrofoam,plastic_cutlery,178
+PS,Polystyrene or Styrofoam,packing_foam,88
+NA,Miscellaneous Plastics,plastic_cd,76
+NA,Miscellaneous Plastics,baby_bottles,83
+NA,Miscellaneous Plastics,large_water_bottles,92
+NA,Miscellaneous Plastics,medical_storage_containers,85
+NA,Miscellaneous Plastics,eyeglasses,91
+NA,Miscellaneous Plastics,exterior_lighting_fixtures,95

@@ -1,0 +1,23 @@
+title: Plastic Images Classifier
+description: Classify plastic images using deep learning
+about:
+
+
+  This is a Plastic Images Classifier using Deep Learning built on top of Pytorch.
+
+
+  The project was build by [Arul Bharathi],[Angela Tao],[Claire Lu],[Nandita Dwivedi],[David Kong].
+
+
+  More info and the source code can he found below.
+
+  [Web app](https://plastic-img-classifier.herokuapp.com)
+
+
+  To try out this mobile app
+
+    - [Expo]()
+
+
+code: https://github.com/cnll0075/knowYourPlastic
+
