@@ -4,11 +4,14 @@ An environmental awareness mobile app that helps you to identify your plastic pr
 
 ## Problem Statement 
 Plastic makes up about 20% of landfill garbage, and less than 10% of them are recycled each year. Plastics are non-biodegradable; when degraded through chemical means or burning, they release toxic and carcinogenic substances, posing substantial threats to the environment. To understand and keep track of the plastic we use daily, we trained a deep learning model (transfer learning with ResNet 50) on over 10,000 images of 43 types of common plastic products. Through taking a photo or directly updating a photo from the album, the user will learn the type of plastic the product belong to, the properties and carbon footprint of the product and its potential damage to the environment.
+
 ## Tech and Design Stack 
 <img src="imgs/kyc_stack.jpg" width="500"/>
+
 ## PlasticNet - Image Dataset
 We based our deep learning application on our self-collected Image Dataset - PlasticNet. We have open sourced this dataset and anyone could use it for Image Recognition Purposes. Please download the dataset from this link - https://drive.google.com/file/d/1E9R4fRIOrCZloTRwIqvLoJpi1sMNjALL/view?usp=sharing
 Classes and Data Dictionary - https://drive.google.com/file/d/1mf61dPkVTYJFG6U1QkwjWJKwDo-FYK9U/view?usp=sharing
+
 ## Model Training
 ### Libraries Needed
  
@@ -60,7 +63,9 @@ learn.unfreeze()
 learn.lr_find()
 learn.recorder.plot()
 ```
-<img src="imgs/lr_2.png" width="100"/>
+<img src="imgs/lr_2.png" width="300"/>
+
+
 #### More training
 We trained the data for 10 more epochs, which reduced our error rate from 17.3% to 15.3%.
 ```python
@@ -79,8 +84,10 @@ epoch   train_loss  valid_loss  error_rate  time
 8   0.078560    0.590942    0.157355    01:37
 9   0.068827    0.587435    0.153934    01:37
 ```
+
 #### Confusion matrix
-<img src="imgs/conf_matrix.png" width="300"/>
+<img src="imgs/conf_matrix.png" width="600"/>
+
 #### Output from the Deep Learning Model
 The output of the deep learning model is a pickled file including the model and the data bunch object.  The file is called `resnet50_plasticnet.pkl`
 You can download the file here - https://drive.google.com/file/d/11c26kT9so03R1d1vc27ZHGJ9M9Zg4wHc/view?usp=sharing
