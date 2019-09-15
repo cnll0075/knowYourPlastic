@@ -8,7 +8,7 @@ Plastic makes up about 20% of landfill garbage, and less than 10% of them are re
 ## Mobile App Github Link
 https://github.com/clairelu123/knowyourplastic_mobile
 
-<img src="imgs/frontend.png"/>
+<img src="imgs/frontend.png" height="450"/>
 
 ## Tech and Design Stack 
 <img src="imgs/kyc_stack.jpg" width="500"/>
